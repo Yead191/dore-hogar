@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --primary: #09b782;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+}
+
+@layer utilities {
+  .section-title {
+    @apply text-3xl lg:text-5xl 2xl:text-[64px] font-bold mb-6;
+  }
+  .section-subtitle {
+    @apply text-[#242424] text-[16px] lg:text-lg 2xl:text-2xl leading-relaxed;
+  }
+  .container {
+    @apply container mx-auto px-4 md:px-5;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins), sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a0a0a0;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ant-btn {
+  box-shadow: none !important;
+}
