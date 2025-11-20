@@ -16,10 +16,10 @@
 
 @layer utilities {
   .section-title {
-    @apply text-3xl lg:text-5xl 2xl:text-[64px] font-bold mb-6;
+    @apply text-3xl lg:text-5xl  font-bold mb-6;
   }
   .section-subtitle {
-    @apply text-[#242424] text-[16px] lg:text-lg 2xl:text-2xl leading-relaxed;
+    @apply text-[#242424] text-[16px] lg:text-lg  leading-relaxed;
   }
   .container {
     @apply container mx-auto px-4 md:px-5;
