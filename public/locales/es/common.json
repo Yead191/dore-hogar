@@ -9,6 +9,10 @@
     "menu": "Menú",
     "language": "Idioma"
   },
+  "banner": {
+    "heading": "Compra de forma más inteligente, rápida y mejor — <highlight>Todo en una sola app</highlight>",
+    "subtitle": "Descubre una experiencia de compra más inteligente, diseñada especialmente para ti. Explora miles de productos, disfruta de descuentos exclusivos de la app, sigue tus pedidos y obtén todo lo que te gusta con un solo toque."
+  },
   "WhyUseOurApp": {
     "heading": "Por Qué <highlight>Usar Nuestra App?</highlight>",
     "subtitle": "En Electronic, te ofrecemos los productos electrónicos más innovadores de las mejores marcas a precios que te encantarán. Ya sea que busques smartphones, laptops, electrodomésticos o gadgets inteligentes, hacemos fácil encontrar exactamente lo que necesitas.",

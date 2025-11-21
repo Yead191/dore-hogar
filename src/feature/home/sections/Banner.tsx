@@ -1,7 +1,10 @@
+import { getTranslate } from "@/lib/helpers/getTranslate";
 import Image from "next/image";
 import React from "react";
 
-export default function Banner() {
+export default async function Banner() {
+  const translateData: any = await getTranslate("banner");
+  console.log(translateData);
   return (
     <div
       id="banner"
@@ -16,18 +19,20 @@ export default function Banner() {
         <h1
           data-aos="fade-up"
           className="font-semibold mb-8 leading-[120%] text-4xl lg:text-5xl 2xl:text-6xl   "
-        >
-          Shop Smarter, Faster, and Better —{" "}
-          <span className="text-[#D5382E]">All in One App</span>{" "}
-        </h1>
+          dangerouslySetInnerHTML={{
+            __html: translateData?.heading.replace(
+              /<highlight>(.*?)<\/highlight>/g,
+              `<span class="text-[#D5382E] ">$1</span>`
+            ),
+          }}
+        />
+
         <p
           data-aos="fade-up"
           data-aos-delay={100}
           className="text-sm lg:text-base  2xl:text-lg lg:max-w-[900px]"
         >
-          Discover a smarter shopping experience designed just for you. Browse
-          thousands of products, enjoy app-only discounts, track your orders,
-          and get everything you love all with a single tap.
+          {translateData?.subtitle}
         </p>
         <div
           data-aos="fade-up"

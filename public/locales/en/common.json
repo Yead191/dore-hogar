@@ -9,6 +9,10 @@
     "menu": "Menu",
     "language": "Language"
   },
+  "banner": {
+    "heading": "Shop Smarter, Faster, and Better — <highlight>All in One App</highlight>",
+    "subtitle": "Discover a smarter shopping experience designed just for you. Browse thousands of products, enjoy app-only discounts, track your orders, and get everything you love all with a single tap."
+  },
   "WhyUseOurApp": {
     "heading": "Why <highlight>Use Our App?</highlight>",
     "subtitle": "At Electronic, we bring you the latest and most innovative electronics from top brands at prices you'll love. Whether you're looking for smartphones, laptops, home appliances, or smart gadgets, we make it easy to find exactly what you need.",
