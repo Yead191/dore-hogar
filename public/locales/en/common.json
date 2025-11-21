@@ -8,5 +8,68 @@
     "download": "Download App",
     "menu": "Menu",
     "language": "Language"
+  },
+  "WhyUseOurApp": {
+    "heading": "Why <highlight>Use Our App?</highlight>",
+    "subtitle": "At Electronic, we bring you the latest and most innovative electronics from top brands at prices you'll love. Whether you're looking for smartphones, laptops, home appliances, or smart gadgets, we make it easy to find exactly what you need.",
+    "features": [
+      {
+        "title": "Wide Range of Electronics",
+        "description": "From smartphones and laptops to smart home devices and accessories, we offer the latest gadgets all in one place."
+      },
+      {
+        "title": "Affordable Prices",
+        "description": "Get top-quality electronics without breaking the bank. We provide competitive pricing and exclusive deals."
+      },
+      {
+        "title": "Easy & Secure Shopping",
+        "description": "Enjoy a smooth, safe, and convenient online shopping experience with secure payment options."
+      },
+      {
+        "title": "Fast & Reliable Delivery",
+        "description": "We ensure quick and reliable shipping so your products reach you on time, every time."
+      }
+    ]
+  },
+  "WhyShopWithUs": {
+    "heading": "Why <highlight>Shop With Us</highlight>",
+    "paragraph1": "At Electronic, we go beyond simply selling products—we deliver an unmatched experience that combines quality, trust, and convenience. Our platform is built for customers who want the very best in modern technology without the hassle. We carefully curate a wide range of electronics, from everyday gadgets to high-performance devices, ensuring that every item meets strict quality standards before it reaches you. With competitive pricing, exclusive deals, and transparent policies, we make premium tech accessible to everyone.",
+    "paragraph2": "Shopping with us means enjoying a seamless journey from start to finish. Our website is optimized for smooth browsing, smarter search, and effortless checkout, so you can find what you need within seconds. We provide secure payment options, fast and reliable delivery, and a hassle-free returns process to give you complete confidence in every purchase. Plus, our dedicated customer support team is always ready to guide you, answer questions, and ensure you have the best shopping experience possible.",
+    "buttons": {
+      "appStore": "Download on the",
+      "googlePlay": "Get it on"
+    }
+  },
+  "faq": {
+    "faqHeading": {
+      "faqTitle": "Frequently Asked Questions",
+      "faqSubtitle": "Find quick answers to the most common questions about shopping, payments, delivery, and returns."
+    },
+    "faqData": [
+      {
+        "question": "How do I create an account?",
+        "answer": "Creating an account is simple—just sign up using your email or phone number, fill in your basic details, and you're ready to start shopping."
+      },
+      {
+        "question": "Is payment safe?",
+        "answer": "Yes, all payments are processed through secure, encrypted gateways to ensure maximum protection of your information."
+      },
+      {
+        "question": "What areas do you deliver to?",
+        "answer": "We deliver to most major cities and regions. You can check delivery availability by entering your location during checkout."
+      },
+      {
+        "question": "How long does delivery take?",
+        "answer": "Delivery time varies depending on your location and the product, but most orders are delivered within 2–5 business days."
+      },
+      {
+        "question": "How do I track my order?",
+        "answer": "After placing an order, you will receive a tracking link via SMS or email. You can also track your order directly from your account dashboard."
+      },
+      {
+        "question": "What is your return policy?",
+        "answer": "We offer a hassle-free return policy. If your item is damaged or not as described, you can request a return or replacement within the eligible period."
+      }
+    ]
   }
 }

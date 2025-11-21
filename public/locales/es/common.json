@@ -8,5 +8,68 @@
     "download": "Descargar App",
     "menu": "Menú",
     "language": "Idioma"
+  },
+  "WhyUseOurApp": {
+    "heading": "Por Qué <highlight>Usar Nuestra App?</highlight>",
+    "subtitle": "En Electronic, te ofrecemos los productos electrónicos más innovadores de las mejores marcas a precios que te encantarán. Ya sea que busques smartphones, laptops, electrodomésticos o gadgets inteligentes, hacemos fácil encontrar exactamente lo que necesitas.",
+    "features": [
+      {
+        "title": "Amplia Variedad de Electrónicos",
+        "description": "Desde smartphones y laptops hasta dispositivos inteligentes para el hogar y accesorios, ofrecemos los gadgets más nuevos en un solo lugar."
+      },
+      {
+        "title": "Precios Asequibles",
+        "description": "Obtén productos electrónicos de alta calidad sin gastar demasiado. Ofrecemos precios competitivos y ofertas exclusivas."
+      },
+      {
+        "title": "Compra Fácil y Segura",
+        "description": "Disfruta de una experiencia de compra en línea fluida, segura y conveniente con opciones de pago protegidas."
+      },
+      {
+        "title": "Entrega Rápida y Confiable",
+        "description": "Garantizamos envíos rápidos y confiables para que tus productos lleguen a tiempo, siempre."
+      }
+    ]
+  },
+  "WhyShopWithUs": {
+    "heading": "Por Qué <highlight>Comprar Con Nosotros</highlight>",
+    "paragraph1": "En Electronic, no solo vendemos productos: ofrecemos una experiencia incomparable que combina calidad, confianza y comodidad. Nuestra plataforma está diseñada para quienes buscan lo mejor de la tecnología moderna sin complicaciones. Seleccionamos cuidadosamente una amplia variedad de electrónicos, desde dispositivos cotidianos hasta equipos de alto rendimiento, garantizando que cada artículo cumpla estrictos estándares de calidad antes de llegar a ti. Con precios competitivos, ofertas exclusivas y políticas transparentes, hacemos que la tecnología premium sea accesible para todos.",
+    "paragraph2": "Comprar con nosotros significa disfrutar de un proceso fluido de principio a fin. Nuestro sitio web está optimizado para una navegación más rápida, búsquedas inteligentes y un pago sencillo, para que encuentres lo que necesitas en segundos. Ofrecemos métodos de pago seguros, entregas rápidas y confiables, y un proceso de devolución sin complicaciones para brindarte total confianza en cada compra. Además, nuestro equipo de soporte está siempre listo para ayudarte, responder tus preguntas y garantizar que tengas la mejor experiencia de compra.",
+    "buttons": {
+      "appStore": "Descargar en",
+      "googlePlay": "Consíguelo en"
+    }
+  },
+  "faq": {
+    "faqHeading": {
+      "faqTitle": "Preguntas Frecuentes",
+      "faqSubtitle": "Encuentra respuestas rápidas a las preguntas más comunes sobre compras, pagos, envíos y devoluciones."
+    },
+    "faqData": [
+      {
+        "question": "¿Cómo creo una cuenta?",
+        "answer": "Crear una cuenta es muy sencillo: regístrate con tu correo o número de teléfono, completa tus datos básicos y podrás comenzar a comprar."
+      },
+      {
+        "question": "¿El pago es seguro?",
+        "answer": "Sí, todos los pagos se procesan mediante pasarelas seguras y encriptadas para garantizar la máxima protección de tu información."
+      },
+      {
+        "question": "¿A qué zonas realizan entregas?",
+        "answer": "Realizamos entregas en la mayoría de las ciudades y regiones. Puedes verificar la disponibilidad ingresando tu ubicación durante el proceso de compra."
+      },
+      {
+        "question": "¿Cuánto tarda la entrega?",
+        "answer": "El tiempo de entrega varía según tu ubicación y el producto, pero la mayoría de los pedidos llegan en un plazo de 2 a 5 días hábiles."
+      },
+      {
+        "question": "¿Cómo puedo rastrear mi pedido?",
+        "answer": "Después de realizar tu compra, recibirás un enlace de seguimiento por SMS o correo electrónico. También puedes rastrear tu pedido desde tu panel de usuario."
+      },
+      {
+        "question": "¿Cuál es su política de devoluciones?",
+        "answer": "Ofrecemos una política de devoluciones sin complicaciones. Si el producto está dañado o no coincide con la descripción, puedes solicitar una devolución o reemplazo dentro del período permitido."
+      }
+    ]
   }
 }

@@ -30,8 +30,8 @@ export default function Banner() {
           and get everything you love all with a single tap.
         </p>
         <div
-          data-aos="zoom-out-up"
-          // data-aos="zoom-in"
+          // data-aos="fade-up"
+          data-aos="zoom-in"
           data-aos-delay={150}
           className="flex justify-end"
         >
@@ -40,6 +40,7 @@ export default function Banner() {
             alt="Phone Image"
             width={1320}
             height={600}
+            draggable={false}
             className="w-full  h-full object-contain mx-auto mt-6"
           />
         </div>
