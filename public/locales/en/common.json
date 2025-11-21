@@ -71,5 +71,16 @@
         "answer": "We offer a hassle-free return policy. If your item is damaged or not as described, you can request a return or replacement within the eligible period."
       }
     ]
+  },
+
+  "footer": {
+    "copyright": "© 2025 dorehogar.com. All rights reserved.",
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact",
+      "terms": "Terms & Condition",
+      "privacy": "Privacy Policy"
+    }
   }
 }

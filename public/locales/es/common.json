@@ -71,5 +71,16 @@
         "answer": "Ofrecemos una política de devoluciones sin complicaciones. Si el producto está dañado o no coincide con la descripción, puedes solicitar una devolución o reemplazo dentro del período permitido."
       }
     ]
+  },
+
+  "footer": {
+    "copyright": "© 2025 dorehogar.com. Todos los derechos reservados.",
+    "links": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "contact": "Contacto",
+      "terms": "Términos y Condiciones",
+      "privacy": "Política de Privacidad"
+    }
   }
 }

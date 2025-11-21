@@ -77,21 +77,6 @@ export default function Navbar({ t }: any) {
     // globalThis.location.reload();
   };
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // animation duration
-      once: false,
-      mirror: true,
-    });
-
-    // refresh AOS after images load or DOM changes
-    const handleResize = () => AOS.refresh();
-    globalThis.addEventListener("resize", handleResize);
-
-    return () => {
-      globalThis.removeEventListener("resize", handleResize);
-    };
-  }, []);
   return (
     <nav
       className={`fixed top-0  z-50 w-full transition-all duration-500 navbar-container 
@@ -114,7 +99,7 @@ export default function Navbar({ t }: any) {
               alt="VIAJIA Logo"
               width={180}
               height={80}
-              className="h-12 lg:h-14 w-full"
+              className="h-12 lg:h-14 w-fit"
             />
           </Link>
 
@@ -152,7 +137,7 @@ export default function Navbar({ t }: any) {
               trigger={["click"]}
               popupRender={() => (
                 <LanguagePanel
-                isScrolled={isScrolled}
+                  isScrolled={isScrolled}
                   selected={language}
                   onSelect={handleLanguageChange}
                 />
@@ -176,7 +161,7 @@ export default function Navbar({ t }: any) {
             </Dropdown>
 
             {/* Download Button (Hidden on Small Devices) */}
-            <button  className="cursor-pointer hidden lg:block bg-[#06825C] text-white px-6 py-2 rounded-full transition-colors text-base font-semibold">
+            <button className="cursor-pointer hidden lg:block bg-[#06825C] text-white px-6 py-2 rounded-full transition-colors text-base font-semibold">
               Download App
             </button>
 
