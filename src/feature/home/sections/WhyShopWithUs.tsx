@@ -39,7 +39,7 @@ export async function WhyShopWithUs() {
         {/* RIGHT IMAGE */}
         <div className="flex justify-center">
           <Image
-            src="/assets/images/home/shop.png"
+            src="/assets/images/home/phone3.png"
             alt="Why Shop With Us"
             width={600}
             height={600}
