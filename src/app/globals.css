@@ -24,6 +24,9 @@
   .container {
     @apply container mx-auto px-4 md:px-5;
   }
+  .flex-center {
+    @apply flex justify-center items-center
+  }
 }
 
 body {

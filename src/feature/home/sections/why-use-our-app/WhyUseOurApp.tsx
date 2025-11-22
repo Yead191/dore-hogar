@@ -9,7 +9,7 @@ export async function WhyChooseUs() {
     <section className="py-16 md:py-20 container ">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left: Circular Image */}
-        <ChooseImg whyChooseUs={whyChooseUs} />
+        <ChooseImg />
 
         {/* Right: Content */}
         <div className="space-y-8">

@@ -38,7 +38,7 @@ export default async function Footer() {
           ))}
         </div>
         {/* DOWNLOAD BUTTONS */}
-        <div className="flex justify-between md:justify-center gap-2  lg:gap-4 mb-10 w-full">
+        <div className="flex justify-between md:justify-center gap-2  lg:gap-4 pb-12 w-full">
           <AppButton />
           <PlayButton />
         </div>

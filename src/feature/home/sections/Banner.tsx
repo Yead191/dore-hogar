@@ -4,7 +4,7 @@ import React from "react";
 
 export default async function Banner() {
   const translateData: any = await getTranslate("banner");
-  console.log(translateData);
+  // console.log(translateData);
   return (
     <div
       id="banner"

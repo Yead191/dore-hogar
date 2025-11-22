@@ -10,11 +10,11 @@ const Spinner = () => {
         {/* Logo */}
         <div className="flex items-center w-full ">
           <Image
-            src={"/Logo.png"}
+            src={"/logo 2.png"}
             alt="logo"
-            width={140}
-            height={40}
-            className="h-10 w-full"
+            width={300}
+            height={150}
+            className="h-32 w-full"
           />
         </div>
       </div>
