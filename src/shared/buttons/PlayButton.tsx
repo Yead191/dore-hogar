@@ -2,11 +2,19 @@ import { getTranslate } from "@/lib/helpers/getTranslate";
 import Image from "next/image";
 import React from "react";
 
-export default async function PlayButton() {
+export default async function PlayButton({
+  isAnimated = true,
+}: {
+  isAnimated?: boolean;
+}) {
   const data: any = await getTranslate("WhyShopWithUs");
 
   return (
-    <button data-aos="fade-up" data-aos-delay={150} className="px-4 lg:px-6 py-2 bg-black rounded-[10px] flex justify-center items-center gap-2 lg:gap-[17px] w-full md:w-fit">
+    <button
+      data-aos={isAnimated ? "fade-up" : null}
+      data-aos-delay={150}
+      className="px-4 lg:px-6 py-2 bg-black rounded-[10px] flex justify-center items-center gap-2 lg:gap-[17px] w-full md:w-fit"
+    >
       <Image
         src="https://i.ibb.co/s9dSrDs/download-2-removebg-preview-1.png"
         alt="playstore logo"

@@ -12,7 +12,7 @@ export default function LanguagePanel({
 }) {
   return (
     <div
-      className={`w-56 lg:w-72 rounded-xl  p-3 shadow-xl ${isScrolled? "bg-white":""} `}
+      className={`w-56 lg:w-72 rounded-xl  p-3 shadow-xl ${isScrolled? "bg-white":"bg-[#e4fef5]"} `}
       style={{ boxShadow: "0 10px 30px rgba(0,0,0,0.08)" }}
     >
       <div className="flex flex-col gap-3">

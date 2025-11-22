@@ -23,6 +23,7 @@ export default async function Footer() {
           alt="VIAJIA Logo"
           width={400}
           height={200}
+          draggable={false}
           className="h-fit lg:h-52 w-fit mb-10"
         />
         {/* Navigation Links */}
@@ -38,9 +39,9 @@ export default async function Footer() {
           ))}
         </div>
         {/* DOWNLOAD BUTTONS */}
-        <div className="flex justify-between md:justify-center gap-2  lg:gap-4 pb-16 w-full">
-          <AppButton />
-          <PlayButton />
+        <div className="flex justify-between md:justify-center gap-2  lg:gap-4 pb-12 w-full">
+          <AppButton isAnimated={false}/>
+          <PlayButton  isAnimated={false}/>
         </div>
         {/* Bottom copyright */}
         <div className="text-center  text-sm text-black/70 border-t border-[#37373A] w-full py-4">

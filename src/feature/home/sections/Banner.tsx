@@ -22,7 +22,7 @@ export default async function Banner() {
           dangerouslySetInnerHTML={{
             __html: translateData?.heading.replace(
               /<highlight>(.*?)<\/highlight>/g,
-              `<span class="text-[#D5382E] ">$1</span>`
+              `<span class="text-[#09B782] ">$1</span>`
             ),
           }}
         />
@@ -41,7 +41,7 @@ export default async function Banner() {
           className="flex justify-end"
         >
           <Image
-            src={"/assets/images/home/phone.png"}
+            src={"/assets/images/home/banner-phone.png"}
             alt="Phone Image"
             width={1320}
             height={600}
