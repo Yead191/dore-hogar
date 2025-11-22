@@ -23,7 +23,7 @@ export default async function Footer() {
           alt="VIAJIA Logo"
           width={400}
           height={200}
-          className="h-full lg:h-52 w-fit mb-10"
+          className="h-fit lg:h-52 w-fit mb-10"
         />
         {/* Navigation Links */}
         <div className="flex flex-wrap gap-4 lg:gap-6 text-xs lg:text-sm text-black/80 mb-8 md:mb-10 items-center justify-center">
@@ -38,7 +38,7 @@ export default async function Footer() {
           ))}
         </div>
         {/* DOWNLOAD BUTTONS */}
-        <div className="flex justify-between md:justify-center gap-2  lg:gap-4 pb-12 w-full">
+        <div className="flex justify-between md:justify-center gap-2  lg:gap-4 pb-16 w-full">
           <AppButton />
           <PlayButton />
         </div>
