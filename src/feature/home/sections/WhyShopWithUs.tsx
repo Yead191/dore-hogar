@@ -7,7 +7,7 @@ export async function WhyShopWithUs() {
   const data: any = await getTranslate("WhyShopWithUs");
 
   return (
-    <section className="py-16 md:py-20 lg:py-28 bg-[#09B782] mb-20">
+    <section className="py-16 md:py-20 lg:py-28 bg-[#09B782] mb-16 lg:mb-20">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* LEFT TEXT */}
         <div className="text-white space-y-6">
