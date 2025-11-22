@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 export default function ChooseImg() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // animation duration
+      duration: 1000, 
       once: false,
       mirror: true,
     });

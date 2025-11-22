@@ -86,5 +86,20 @@
       "terms": "Terms & Condition",
       "privacy": "Privacy Policy"
     }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Any question or remarks? Just write us a message!",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "Your name",
+    "lastName": "Last Name",
+    "lastNamePlaceholder": "Last name",
+    "email": "Email",
+    "emailPlaceholder": "Your email",
+    "phone": "Phone number",
+    "country": "Country",
+    "message": "Message",
+    "messagePlaceholder": "Type your message",
+    "button": "Send Message"
   }
 }

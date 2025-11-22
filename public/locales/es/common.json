@@ -86,5 +86,20 @@
       "terms": "Términos y Condiciones",
       "privacy": "Política de Privacidad"
     }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes alguna pregunta o comentario? ¡Solo escríbenos un mensaje!",
+    "firstName": "Nombre",
+    "firstNamePlaceholder": "Tu nombre",
+    "lastName": "Apellido",
+    "lastNamePlaceholder": "Apellido",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "Tu correo",
+    "phone": "Número de teléfono",
+    "country": "País",
+    "message": "Mensaje",
+    "messagePlaceholder": "Escribe tu mensaje",
+    "button": "Enviar mensaje"
   }
 }

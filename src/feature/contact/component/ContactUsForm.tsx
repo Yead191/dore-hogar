@@ -13,7 +13,7 @@ interface FormValues {
   message: string;
 }
 
-export default function ContactUsForm() {
+export default function ContactUsForm({ t }: any) {
   const [form] = Form.useForm<FormValues>();
 
   const onFinish: FormProps<FormValues>["onFinish"] = (values) => {
@@ -22,66 +22,59 @@ export default function ContactUsForm() {
   };
 
   return (
-    <Form<FormValues>
+    <Form
       form={form}
       layout="vertical"
       onFinish={onFinish}
       className="contact-form"
     >
-      {/* First name and Last name in row */}
       <div className="grid grid-cols-2 gap-4">
         <Form.Item
-          label={<span className="md:text-lg font-semibold leading-[150%]">First Name</span>}
+          label={
+            <span className="md:text-lg font-semibold">{t.firstName}</span>
+          }
           name="firstName"
-          rules={[{ required: true, message: "Please enter your first name" }]}
+          rules={[{ required: true, message: t.firstName }]}
           className="mb-0"
         >
           <Input
-            placeholder="Your name"
+            placeholder={t.firstNamePlaceholder}
             className="h-12! text-base! border-[#06825C] rounded-lg!"
-            style={{
-              borderColor: "#0f766e",
-            }}
+            style={{ borderColor: "#0f766e" }}
           />
         </Form.Item>
 
         <Form.Item
-          label={<span className="md:text-lg font-semibold leading-[150%]">Last Name</span>}
+          label={<span className="md:text-lg font-semibold">{t.lastName}</span>}
           name="lastName"
-          rules={[{ required: true, message: "Please enter your last name" }]}
+          rules={[{ required: true, message: t.lastName }]}
           className="mb-0"
         >
           <Input
-            placeholder="Last name"
+            placeholder={t.lastNamePlaceholder}
             className="h-12! text-base! border-[#06825C] rounded-lg!"
-            style={{
-              borderColor: "#0f766e",
-            }}
+            style={{ borderColor: "#0f766e" }}
           />
         </Form.Item>
       </div>
 
-      {/* Email */}
       <Form.Item
-        label={<span className="md:text-lg font-semibold leading-[150%]">Email</span>}
+        label={<span className="md:text-lg font-semibold">{t.email}</span>}
         name="email"
-        rules={[
-          { required: true, message: "Please enter your email" },
-          { type: "email", message: "Please enter a valid email" },
-        ]}
+        rules={[{ required: true, message: t.email }]}
         className="mt-6 mb-6"
       >
         <Input
-          placeholder="Your email"
+          placeholder={t.emailPlaceholder}
           className="h-12! text-base! border-[#06825C] rounded-lg!"
-          style={{
-            borderColor: "#0f766e",
-          }}
+          style={{ borderColor: "#0f766e" }}
         />
       </Form.Item>
 
-      {/* Phone number with country selector */}
-      <Form.Item label={<span className="md:text-lg font-semibold leading-[150%]">Phone number</span>} className="mb-6">
+      <Form.Item
+        label={<span className="md:text-lg font-semibold">{t.phone}</span>}
+        className="mb-6"
+      >
         <div className="flex gap-3">
           <Form.Item name="country" noStyle initialValue="US">
             <Select
@@ -98,39 +91,31 @@ export default function ContactUsForm() {
           <Form.Item
             name="phone"
             noStyle
-            rules={[
-              { required: true, message: "Please enter your phone number" },
-            ]}
+            rules={[{ required: true, message: t.phone }]}
           >
             <Input
               placeholder="+10 (000) 000-0000"
               className="flex-1 h-12! text-base! border-[#06825C] rounded-lg!"
-              style={{
-                borderColor: "#0f766e",
-              }}
+              style={{ borderColor: "#0f766e" }}
             />
           </Form.Item>
         </div>
       </Form.Item>
 
-      {/* Message */}
       <Form.Item
-        label={<span className="md:text-lg font-semibold leading-[150%]">Message</span>}
+        label={<span className="md:text-lg font-semibold">{t.message}</span>}
         name="message"
-        rules={[{ required: true, message: "Please enter a message" }]}
+        rules={[{ required: true, message: t.message }]}
         className="mb-8"
       >
         <Input.TextArea
-          placeholder="Type your message"
+          placeholder={t.messagePlaceholder}
           rows={5}
           className="text-base! border-[#06825C] rounded-lg!"
-          style={{
-            borderColor: "#0f766e",
-          }}
+          style={{ borderColor: "#0f766e" }}
         />
       </Form.Item>
 
-      {/* Submit button */}
       <Form.Item className="mb-0">
         <Button
           data-aos="fade-up"
@@ -140,7 +125,7 @@ export default function ContactUsForm() {
           size="large"
           className="h-12! px-8! rounded-lg! bg-[#06825C]! border-0! font-semibold flex items-center gap-2"
         >
-          Send Message <span>{<ArrowRightOutlined />}</span>
+          {t.button} <span>{<ArrowRightOutlined />}</span>
         </Button>
       </Form.Item>
     </Form>
