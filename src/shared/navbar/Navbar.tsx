@@ -99,6 +99,7 @@ export default function Navbar({ t }: any) {
               alt="VIAJIA Logo"
               width={180}
               height={80}
+              draggable={false}
               className="h-12 lg:h-14 w-fit"
             />
           </Link>
