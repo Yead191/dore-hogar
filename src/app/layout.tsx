@@ -14,9 +14,6 @@ export const metadata: Metadata = {
   title: "DORE HOGAR",
   description:
     "Discover a smarter shopping experience designed just for you. Browse thousands of products, enjoy app-only discounts, track your orders, and get everything you love — all with a single tap with Dore Hogar.",
-  icons: {
-    icon: "/favicon.png",
-  },
 };
 
 export default function RootLayout({
